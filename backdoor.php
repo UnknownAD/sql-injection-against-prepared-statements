@@ -7,7 +7,7 @@
 </form>
 <?php
     // Server Side
-$database=new pdo("mysql:host=localhost;dbname=dat","root","17095674");
+$database=new pdo("mysql:host=localhost;dbname=<database name>","root","<password here >");
 $params=array();
 $set="";
 foreach($_GET as $key=>$value){
